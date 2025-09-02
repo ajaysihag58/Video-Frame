@@ -34,6 +34,8 @@ def extract_frames(video_path, output_folder):
 
 # Example usage
 if __name__ == "__main__":
-    video_path = r"C:\Users\ajsih\OneDrive\Pictures\Camera Roll\111.mp4"
-    output_folder = r"C:\Users\ajsih\OneDrive\Pictures\Camera Roll\extracted_frames"
+    # Replace 'Video_source_path' with your actual video source path below
+    video_path = r"Video_source_path"
+    # Replace 'Frame_output_path' with your actual path for Storing Output Frames below
+    output_folder = r"Frame_output_path"
     extract_frames(video_path, output_folder)
